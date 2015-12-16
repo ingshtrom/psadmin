@@ -1,0 +1,23 @@
+{
+    "extends": "eslint:recommended",
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": true
+    },
+    "rules": {
+        "semi": [2 , "always"],
+        "quotes": [2, "single"],
+        "no-unused-vars": 1,
+        "no-alert": 2,
+        "no-lone-blocks": 2,
+        "no-console": 1
+    },
+    "globals": {
+        "jQuery": true,
+        "$": true
+    }
+}
