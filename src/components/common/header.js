@@ -1,6 +1,7 @@
 'use strict';
 
 var React = require('react');
+var Link = require('react-router').Link;
 
 var Header = React.createClass({
 	render: function () {
@@ -11,13 +12,13 @@ var Header = React.createClass({
 						<img src="http://lh3.googleusercontent.com/-aQSZ4Nf28W4/AAAAAAAAAAI/AAAAAAAAAAA/OevJbVVxW2g/s32-c-mo/photo.jpg" />
 					</a>
 					<ul className="nav navbar-nav">
-						<li><a href="/">Home</a></li>
-						<li><a href="/#authors">Authors</a></li>
-						<li><a href="/#about">About</a></li>
+						<li><Link to="/">Home</Link></li>
+						<li><Link to="/authors">Authors</Link></li>
+						<li><Link to="/about">About</Link></li>
 					</ul>
 				</div>
 			</nav>
-		);	
+		);
 	}
 });
 
