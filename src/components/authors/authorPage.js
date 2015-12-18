@@ -3,6 +3,7 @@
 var React = require('react');
 var AuthorApi = require('../../api/authorApi');
 var AuthorList = require('./authorList');
+var Link = require('react-router').Link;
 
 // keep in mind that using a variable like this allows for more
 // useful error messages
@@ -23,6 +24,7 @@ var AuthorPage = React.createClass({
 		return (
 			<div>
 				<h1>Authors</h1>
+                <Link to="author" className="btn btn-default">Add Author</Link>
                 <AuthorList authors={this.state.authors} />
 			</div>
 		);
