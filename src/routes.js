@@ -20,6 +20,7 @@ var routes = (
             <Route path="authors" component={AuthorPage} />
             <Route path="about" component={AboutPage} />
             <Route path="author" component={ManageAuthorPage} />
+            <Route path="author/:id" component={ManageAuthorPage} />
             <Route path="*" component={NotFoundPage}/>
             // I had trouble getting redirects to work
             // think it is because of our history method

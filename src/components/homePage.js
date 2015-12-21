@@ -2,15 +2,8 @@
 
 var React = require('react');
 var Link = require('react-router').Link;
-//var Lifecycle = require('react-router').Lifecycle;
 
 var Home = React.createClass({
-
-    //mixins: [ Lifecycle ],
-    //
-    //routerWillLeave: function (nextLocation) {
-    //    return 'Are you sure you want to leave the home page?';
-    //},
 
     render: function () {
         return (
