@@ -20,7 +20,7 @@
     "gulp-open": "^1.0.0",
     "history": "1.13.1",
     "jquery": "^2.1.4",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "object-assign": "^4.0.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
